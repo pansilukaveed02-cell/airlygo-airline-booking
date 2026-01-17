@@ -1,61 +1,74 @@
-"<!DOCTYPE html><html><head><title>Airlygo</title></head><body></body></html>" 
-<header>
-	<link rel="stylesheet" href="styles/style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airlygo - Airline Booking</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
 
-  <h1>Airlygo - Airline Booking</h1>
-  <nav>
-    <a href="#flights">Flights</a>
-    <a href="#hotels">Hotels</a>
-    <a href="#beverages">Beverages</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-<section id="flights">
-  <h2>Flights</h2>
-  <form>
-    <label>From:</label>
-    <input type="text" placeholder="City or Airport">
-    <label>To:</label>
-    <input type="text" placeholder="City or Airport">
-    <label>Date:</label>
-    <input type="date">
-    <button type="submit">Search Flights</button>
-  </form>
-</section>
+  <header>
+    <h1>Airlygo - Airline Booking</h1>
+    <nav>
+      <a href="#flights">Flights</a>
+      <a href="#hotels">Hotels</a>
+      <a href="#beverages">Beverages</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<section id="hotels">
-  <h2>Hotels</h2>
-  <form>
-    <label>City:</label>
-    <input type="text" placeholder="Enter City">
-    <label>Check-in:</label>
-    <input type="date">
-    <label>Check-out:</label>
-    <input type="date">
-    <button type="submit">Search Hotels</button>
-  </form>
-</section>
+  <section id="flights">
+    <h2>Flights</h2>
+    <form>
+      <label>From:</label>
+      <input type="text" placeholder="City or Airport">
+      <label>To:</label>
+      <input type="text" placeholder="City or Airport">
+      <label>Date:</label>
+      <input type="date">
+      <button type="submit">Search Flights</button>
+    </form>
+  </section>
 
-<section id="beverages">
-  <h2>Beverages</h2>
-  <p>Choose your in-flight beverages:</p>
-  <input type="checkbox" id="coffee" name="coffee">
-  <label for="coffee">Coffee</label>
-  <input type="checkbox" id="tea" name="tea">
-  <label for="tea">Tea</label>
-  <input type="checkbox" id="juice" name="juice">
-  <label for="juice">Juice</label>
-</section>
-<section id="contact">
-  <h2>Contact Us</h2>
-  <form>
-    <label>Name:</label>
-    <input type="text" placeholder="Your Name" required>
-    <label>Email:</label>
-    <input type="email" placeholder="Your Email" required>
-    <label>Message:</label>
-    <textarea placeholder="Your Message" required></textarea>
-    <button type="submit">Send</button>
-  </form>
-</section>
+  <section id="hotels">
+    <h2>Hotels</h2>
+    <form>
+      <label>City:</label>
+      <input type="text" placeholder="Enter City">
+      <label>Check-in:</label>
+      <input type="date">
+      <label>Check-out:</label>
+      <input type="date">
+      <button type="submit">Search Hotels</button>
+    </form>
+  </section>
 
+  <section id="beverages">
+    <h2>Beverages</h2>
+    <p>Choose your in-flight beverages:</p>
+    <input type="checkbox" id="coffee" name="coffee">
+    <label for="coffee">Coffee</label>
+    <input type="checkbox" id="tea" name="tea">
+    <label for="tea">Tea</label>
+    <input type="checkbox" id="juice" name="juice">
+    <label for="juice">Juice</label>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label>Name:</label>
+      <input type="text" placeholder="Your Name" required>
+      <label>Email:</label>
+      <input type="email" placeholder="Your Email" required>
+      <label>Message:</label>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="scripts/booking.js"></script>
+
+</body>
+</html>
